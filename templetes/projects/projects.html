@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1 class="display-4"><i class="fas fa-laptop-code"></i>
+            Projects
+        </h1>
+        <p class="h4 lead ">The Projects that have done so for by using my coding experience</p>
+    </div>
+</section>
+<div class="container-fluid">
+    <div class="col-md-6 offset-md-4">
+        <img src="{% static './images/coding.png'%}"  width="500px" class="mx-8" alt="">
+    </div>
+    
+    <h1 class=" text-center text-primary"> <i class="fas fa-code"></i> Projects</h1>
+    <hr>
+    {%for p in projectdata %}
+    <div class="container">
+        <div class="card my-4">
+            <div class="card-body">
+              <h5 class="card-title h3">{{p.pname}}</h5>
+              <Span class="h5 text-primary">{{p.techUsed}}</Span><br><br>
+              <p class="h5 font-weight-bold text-danger">{{p.pmonth}}</p>
+              <p class="card-text">{{p.pdescrpation}} </p>
+              <a href="{{p.plink}}" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+          
+
+    </div>
+    {% endfor %}
+    
+</div>
+{% endblock %}

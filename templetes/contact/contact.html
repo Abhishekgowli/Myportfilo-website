@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% extends 'base.html' %} {% block content %} {% load static %}
+<section class="jumbotron text-center">
+  <div class="container">
+    <h1 class="display-4">
+      <i class="fas fa-id-card"></i>
+      Contact Me
+    </h1>
+    <p class="h4 lead">The Contact Details</p>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="{% static '/images/contact.png' %}" width="600px" alt="" />
+      </div>
+      <div class="col-md-6">
+        <h1 class="text-primary"> <i class="far fa-id-card"></i> Contact Inforamtion</h1>
+        <br />
+        <h3>Abhishek N</h3>
+        <p class="h3">
+          Gumbaz road Ganjam Post Srirangapatna Mandya District-571438
+        </p>
+        <p class="h3">+91 &nbsp 7795817996</p>
+        <p class="h3">gowleabhi@gmail.com</p>
+        <a href="https://github.com/Abhishekgowli" style="padding-left: 25px"
+          ><i class="fab fa-github fa-3x"></i
+        ></a>
+        <a href="https://twitter.com/Abhishekgowli01" style="padding-left: 25px"
+          ><i class="fab fa-twitter fa-3x"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/abhishek-gowle-351490185/" style="padding-left: 25px"
+          ><i class="fab fa-linkedin fa-3x"></i
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20210527T110000Z
+DTEND:20210527T113000Z
+DTSTAMP:20210527T092916Z
+ORGANIZER;CN=web@lycan3d.com:mailto:web@lycan3d.com
+UID:024cn7btqfra0mpmkopfb5rutr@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=abhigeet@lycan3d.com;X-NUM-GUESTS=0:mailto:abhigeet@lycan3d.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=gowleabhi@gmail.com;X-NUM-GUESTS=0:mailto:gowleabhi@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=web@lycan3d.com;X-NUM-GUESTS=0:mailto:web@lycan3d.com
+X-MICROSOFT-CDO-OWNERAPPTID:1152928256
+CREATED:20210527T092913Z
+DESCRIPTION:Technical Round\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this sectio
+ n of the description.\n\nThis event has a video call.\nJoin: https://meet.g
+ oogle.com/htp-sivz-msz\n(US) +1 314-666-2065 PIN: 457526591#\nView more pho
+ ne numbers: https://tel.meet/htp-sivz-msz?pin=5778832019647&hs=7\n\nView yo
+ ur event at https://calendar.google.com/calendar/event?action=VIEW&eid=MDI0
+ Y243YnRxZnJhMG1wbWtvcGZiNXJ1dHIgZ293bGVhYmhpQG0&tok=MTUjd2ViQGx5Y2FuM2QuY29
+ tNGQyMjEzNDc3Mzc2MWYyNzkzNWMwNDMyN2FkOTdmNWQ4OTk0NTcxYQ&ctz=Asia%2FKolkata&
+ hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20210527T092914Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lycan 3D Interview Process
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
