@@ -1,0 +1,1 @@
+web: gunicorn myportfilo.wsgi --log-file -
